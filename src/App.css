@@ -16,29 +16,50 @@ body {
   padding: 24px;
 }
 
+.nav {
+  display: flex;
+  gap: 16px;
+  padding: 12px 16px;
+  border-bottom: 1px solid #ddd;
+}
+
+.nav a {
+  color: #444;
+  text-decoration: none;
+}
+
+.nav a.active {
+  color: #2563eb;
+  font-weight: bold;
+}
+
 .grid {
   display: flex;
   flex-wrap: wrap;
+  gap: 12px;
 }
 
 .product-grid {
-  margin: 0 -8px 32px;
+  margin: 0 0 32px;
 }
 
 .card {
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 12px 16px;
-  margin: 8px;
   width: 220px;
+}
+
+.product-detail {
+  box-sizing: border-box;
 }
 
 .card p {
   margin: 8px 0;
 }
 
-.cart-count {
-  font-weight: 700;
+.welcome {
+  margin-bottom: 32px;
 }
 
 .demos {
@@ -109,6 +130,19 @@ body {
 
 .todo-toggle.is-done {
   text-decoration: line-through;
+}
+
+.cart-items {
+  list-style: none;
+  padding: 0;
+}
+
+.cart-items li {
+  align-items: center;
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+  margin: 12px 0;
 }
 
 .visually-hidden {

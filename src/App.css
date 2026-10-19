@@ -1,0 +1,30 @@
+:root {
+  font-family: system-ui, sans-serif;
+  color: #222;
+  background: #fafafa;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  margin: 0;
+}
+
+.shop {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin: 8px;
+  width: 220px;
+}
